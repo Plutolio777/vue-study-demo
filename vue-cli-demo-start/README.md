@@ -18,7 +18,29 @@ vue -v
 ~~~
 
 ~~~bash
-
 vue create `项目名称`
+~~~
 
+## 利用vite对vue项目进行打包
+
+我们可以使用npm
+
+~~~bash
+npm 6.x
+npm init vite@latest <project-name> --template vue
+
+npm 7+
+npm init vite@latest <project-name> -- --template vue
+
+cd <project-name>
+npm install
+npm run dev
+~~~
+
+使用yarn
+
+~~~bash
+yarn create vite <project-name> --template vue
+yarn
+yarn dev
 ~~~
