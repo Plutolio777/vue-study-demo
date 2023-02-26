@@ -4,4 +4,6 @@
 
 ## 1.淘宝镜像
 
-npm install -p -cnpm --registry=https://registry.npm.taobao.org
+~~~bash
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+~~~
